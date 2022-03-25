@@ -1,0 +1,20 @@
+.Single-product > img {
+  width: 250px;
+  height: 80;
+}
+.Single-product {
+  display: grid;
+  grid-template-columns: repeat(3 200px);
+  grid-gap: 5px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.Single-product > div > button {
+  width: 200px;
+  border: 1px solid steelblue;
+  height: 30px;
+  border-radius: 5px;
+}
+.Single-product > div {
+  padding-bottom: 5px;
+}
