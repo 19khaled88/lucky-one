@@ -1,0 +1,17 @@
+.selected-items > h3 {
+  margin-bottom: 80px;
+}
+.selected-items > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selected-items > div > button {
+  width: 200px;
+  margin-bottom: 5px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid steelblue;
+}

@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react'
+import { Cart } from '../cart/Cart'
 import { Product } from '../Product/Product'
 import './Products.css'
 export const Products = () => {
   const [products, setProducts] = useState([])
+  const [cart, setCart] = useState([])
+  const addToCart = (product) => {
+    const alteredCart = [...cart, product]
+    setCart(alteredCart)
+  }
 
   useEffect(() => {
     fetch('accessories.json')
@@ -12,12 +18,18 @@ export const Products = () => {
 
   return (
     <div className="All-product">
-      <div className="cart-view">
+      <div className="product-list">
         {products.map((product) => (
-          <Product key={product.id} product={product}></Product>
+          <Product
+            key={product.id}
+            product={product}
+            addToCart={addToCart}
+          ></Product>
         ))}
       </div>
-      <div className="selected-items"></div>
+      <div className="cart-view">
+        <Cart cartItems={cart}></Cart>
+      </div>
     </div>
   )
 }
