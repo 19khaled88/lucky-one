@@ -5,31 +5,31 @@ import './Products.css'
 export const Products = () => {
   const [products, setProducts] = useState([])
   const [cart, setCart] = useState([])
-  const [message, setMessage]= useState([])
+  const [message, setMessage] = useState([])
 
   const addToCart = (product) => {
     const alteredCart = [...cart, product]
-    const found = cart.find((element)=> element.id === product.id)
+    const found = cart.find((element) => element.id === product.id)
 
-    if(found){
+    if (found) {
       const message = 'Item already added'
       setMessage(message)
-    }else if(alteredCart.length > 4){
+    } else if (alteredCart.length > 4) {
       const msg = 'Added items must not be more than 4'
       setMessage(msg)
-    }else{
+    } else {
       setCart(alteredCart)
     }
   }
 
-  const deleteOne=(id)=>{
-    const filtered = cart.filter(filter=>{
-      return filter.id !== id;
+  const deleteOne = (id) => {
+    const filtered = cart.filter((filter) => {
+      return filter.id !== id
     })
-   setCart(filtered)
+    console.log(cart.length)
+    setCart(filtered)
   }
-  
-  
+
   useEffect(() => {
     fetch('accessories.json')
       .then((res) => res.json())
@@ -48,11 +48,7 @@ export const Products = () => {
         ))}
       </div>
       <div className="cart-view">
-        <Cart 
-          cartItems={cart}
-          message={message}
-          deleteOne={deleteOne}
-          ></Cart>
+        <Cart cartItems={cart} message={message} deleteOne={deleteOne}></Cart>
       </div>
     </div>
   )

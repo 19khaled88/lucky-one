@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faTrashCan } from '@fortawesome/free-solid-svg-icons'
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
 export const Cart = (props) => {
   const { cartItems, message, deleteOne } = props
   const [cartItem, setCartItem] = useState([])
   const [randomItem, setRandomItem] = useState([])
   const [randomOne, setRandomOne] = useState([])
+
   useEffect(() => {
     const cartAdded = [cartItems]
     setCartItem(cartAdded)
@@ -15,8 +16,8 @@ export const Cart = (props) => {
 
   const randomSelect = () => {
     let show = randomItem[Math.floor(Math.random() * randomItem.length)]
-
     setRandomOne(show.name)
+    console.log(cartItem.length)
   }
 
   return (
