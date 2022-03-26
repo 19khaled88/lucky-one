@@ -29,9 +29,12 @@
 }
 .addedItemsDelete button {
   height: 35px;
+  width: 60px;
 }
 .addedItemsDelete p {
   margin-right: 30px;
+  width: 150px;
+  text-align: left;
 }
 .warning-messge {
   margin-bottom: 40px;
