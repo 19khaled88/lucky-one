@@ -1,6 +1,6 @@
 .Single-product > img {
   width: 250px;
-  height: 80;
+  height: 200px;
 }
 .Single-product {
   display: grid;

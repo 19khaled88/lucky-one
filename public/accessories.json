@@ -1,74 +1,74 @@
 [
   {
     "id": "104e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Stamp Bail",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/bail.png"
   },
   {
     "id": "114e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Colorful Bail",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/bail1.jpg"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Cricket Ball",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/ball.jpg"
   },
   {
     "id": "134e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Cricket Bat",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/bat1.jpg"
   },
   {
     "id": "144e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Players Cap",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/cap.jpg"
   },
   {
     "id": "154e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Players Gloves",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/gloves.jpg"
   },
   {
     "id": "164e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Cricket Helmat",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/helmat.jpg"
   },
   {
     "id": "174e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Players Jersey",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/jersey.jpg"
   },
   {
     "id": "184e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Cricket Pad",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/pad.jpg"
   },
   {
     "id": "194e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Qualitiful Pad",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/pad1.jpg"
   },
   {
     "id": "121e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Cricket Stamp",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/stamp.jpg"
   },
   {
     "id": "122e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "ULTRABOOST 22 SHOES",
+    "name": "Stamp with Bail",
     "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "img": "./images/stamp1.jpg"
   }
 ]
